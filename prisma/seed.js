@@ -21,6 +21,8 @@ const seedDb = async () => {
     })
   );
 
+  // Aundrina was here!
+
   console.log("creating days...");
   await Promise.all(
     days.map(async (day) => {
